@@ -23,3 +23,33 @@
 .header h1 {
     font-size: 24px;
 }
+
+
+
+.rental-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rental-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 30%;
+}
+
+.rental-item h3 {
+    color: #333;
+}
+
+.rental-item button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
